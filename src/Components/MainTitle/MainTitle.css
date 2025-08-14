@@ -1,0 +1,28 @@
+.main-title {}
+
+.main-title::before {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 5px;
+    background-color: currentColor;
+    left: 15%;
+    bottom: 0px;
+
+}
+
+.main-title::after {
+    content: "\f005";
+    font-family: "font awesome 5 free";
+    font-weight: 900;
+    font-size: 20px;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    padding: 6px;
+    margin: auto;
+    background-color: inherit;
+    transform: translateX(-50%);
+
+
+}
