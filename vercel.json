@@ -1,7 +1,8 @@
 {
     "rewriters": [
         {
-            "source": "/(.*)"
+            "source": "/(.*)",
+            "destination": "/"
         }
     ]
 }
